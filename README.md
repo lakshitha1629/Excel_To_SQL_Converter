@@ -21,10 +21,10 @@ Convert Excel files to SQL `CREATE TABLE` and `INSERT INTO` statements.
    This will generate an executable file in the dist directory.
 4. **To read an Excel file and convert it to SQL statements, you can use the provided run.bat file or execute the following command**
    ```
-   script.exe D:\investor_users_161023.xlsx
+   script.exe D:\users.xlsx
    ```
-   Change the path D:\investor_users_161023.xlsx to the path of your Excel file.
+   Change the path D:\users.xlsx to the path of your Excel file.
 
 ***Notes***
 Ensure the provided Excel file follows the expected format.
-The table name will be generated with a "d" prefix based on the Excel file name.
+The table name will be generated with based on the Excel file name.
